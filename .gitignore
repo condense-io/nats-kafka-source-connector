@@ -1,0 +1,47 @@
+# Go
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+dist/
+vendor/
+go.work
+go.work.sum
+tmp/
+
+# macOS
+.DS_Store
+._*
+
+# Linux
+*~
+.fuse_hidden*
+.Trash-*
+
+# Windows
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# VS Code
+.vscode/
+.history/
+
+# JetBrains (GoLand, IntelliJ)
+.idea/
+*.iml
+
+# Vim / Neovim
+*.swp
+*.swo
+
+# Secrets & env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+yamls/

@@ -1,0 +1,5 @@
+.env
+.vscode
+dev-docker-buildx.sh
+main
+yamls
